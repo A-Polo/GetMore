@@ -1,0 +1,98 @@
+html, body {height: 100%;}
+body {margin: 0; font-size: 14px; color: #ffffff; background: url(../img/bg.png);font-family: Suplex }
+@font-face {font-family: Suplex;src: url(../fonts/Suplexmentary.ttf);}
+@font-face {font-family: Teslic;src: url(../fonts/tomshandwrittennew.ttf);}
+
+a:focus,
+a:visited {color: #ffffff; text-decoration: none; outline: none;}
+
+.container {width: 960px; position: relative; z-index: 1;}
+.header {line-height: 50px; margin: 0 ;clear: both;background-color: rgba(0,0,0,0.5);height: 80px}
+.footer{line-height: 50px;margin: 0;background-color: rgba(0,0,0,0.5);margin-top: 15px}
+.link-dev{color: #439ACF}
+.link-dev:hover{text-decoration: none;color: #176594 !important;}
+.link-dev:visited{text-decoration: underline;color: #96c6e4}
+.main-content {position: relative; margin-top: 70px;}
+.slider-container{margin-top: 50px}
+.text{text-align: center;font-size: 19px}
+.text span{display: block;letter-spacing: 8px;font-family: Teslic;font-size: 66px; color: #fff;text-shadow: 3px 3px 1px rgba(0,0,0,0.6)}
+.samsung {margin-left: inherit; position: relative;height: 525px; background: url(../img/samsung.png) no-repeat center center; background-size: contain; position: relative;}
+.logo{display: block; background: url(../img/iTunesArtwork@2x.png) no-repeat center center; background-size: contain;height: 200px;width: 287px}
+.mobile{display: none}
+
+.screen-get{
+    position: absolute;
+    top: 52px;
+    left: 41px;
+    height: 429px;
+    width: 238px;
+    background-size: contain;
+}
+.text-block{
+    display: none;
+}
+.show-block{
+    display: none;
+}
+
+.enter:hover{text-decoration: none;}
+.enter:visited{text-decoration: none;}
+.download-buttons {margin-left: 55px;}
+.get-btn {text-align: center;border-radius: 6px; border: 1px solid #ffffff; display: block; margin-top: 20px;height: 55px; width: 180px; cursor: pointer;}
+.get-btn:hover {background-color: rgba(255, 255, 255, 0.1);text-decoration: none}
+.btn-shout{text-align: center;line-height: 54px}
+.enter{text-shadow: 1px 1px 1px rgba(0,0,0,0.5);font-size: 15px;margin-top: 12px}
+.apple-btn {background: url(../images/apple-btn.png) no-repeat center center; background-size: contain;}
+.android-btn {background: url(../images/google-btn.png) no-repeat center center; background-size: contain;}
+.contact{text-align: center;}
+.contact-us li{list-style: none;font-size: 20px;}
+.phone{text-shadow: 3px 3px 1px rgba(0,0,0,0.6)}
+.email{text-shadow: 2px 2px 1px rgba(0,0,0,0.6);color: #fff}
+.email:hover{text-decoration: none}
+.form-lable{
+    font-family: Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+    text-shadow: none;
+}
+.popup-box {
+    position: absolute;
+    display: none;
+    z-index: 9999999;
+}
+#blackout {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    z-index: 999999;
+    left: 0;
+    display: none;
+}
+.form-input{
+    font-family: Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+    color: #000000;
+}
+@media (max-width: 960px) {
+	.pc {display: none;}
+	.mobile {display: block;}
+    .logo{margin: 0 auto;height: 200px;width: 200px}
+    .text{margin-bottom: -30px;margin-top: 20px}
+    .text span{font-size: 50px;display: block;font-family: Teslic}
+    .header{text-align: center}
+    .enter{font-size: 15px}
+	.get-btn {border: 1px solid #fceb55; background-color: #fceb55;margin: 19px auto 0 auto;}
+	.android-btn {background-image: url(../images/google-btn-mobile.png);}
+	.apple-btn {background-image: url(../images/apple-btn-mobile.png);}
+	.samsung {margin: 0 auto; background-image: url(../img/samsung-mobile.png); background-size: contain; width: 100%; height: 969px;}
+	.download-buttons {width: 100%; margin: 0;}
+	body {background: #2a2f3b url(../img/bg.png) no-repeat top center;}
+	.container {width: 100%;}
+    .contact-us li{margin-left: -35px}
+}
+
+@media (max-width: 480px) {
+	.get-btn {display: block; margin: 19px auto 0 auto;}
+    .contact{margin: 19px auto 0 auto}
+    .logo{margin: 0 auto}
+    .contact-us li{margin: 0 auto}
+    .pc{display: none}
+    .email{color: #ffffff}
+}
