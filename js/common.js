@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.text .text-block').eq(0).addClass('active').fadeIn(1000);
-    setInterval('blockAnimate();', 10000);
+    setInterval('blockAnimate();', 15000);
     $('.imgShow .show-block').eq(0).addClass('active').fadeIn(1000);
 
     $('#responsive').lightSlider({

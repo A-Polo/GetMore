@@ -1,4 +1,7 @@
 <?
+error_reporting(-1);
+ini_set('display_errors',0);
+header('Content-Type: text/html; charset=utf-8');
 
 
 $adminemail="admin@getmore.com.ua";  // e-mail админа
@@ -7,7 +10,7 @@ $date=date("d.m.y"); // число.месяц.год
 
 $time=date("H:i"); // часы:минуты:секунды
 
-$backurl="http://getmore.com.ua/1/index.html";  // На какую страничку переходит после отправки письма
+$backurl="http://getmore.com.ua/";  // На какую страничку переходит после отправки письма
 
 
 $name=$_POST['name'];
