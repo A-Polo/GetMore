@@ -49,6 +49,9 @@ a:visited {color: #ffffff; text-decoration: none; outline: none;}
 .phone{text-shadow: 3px 3px 1px rgba(0,0,0,0.6)}
 .email{text-shadow: 2px 2px 1px rgba(0,0,0,0.6);color: #fff}
 .email:hover{text-decoration: none}
+.qr-code{border: none;}
+.qr-code:hover{background: none}
+.qr-code-1{margin-top: 63px}
 .form-lable{
     font-family: Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
     text-shadow: none;
